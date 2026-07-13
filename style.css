@@ -1,41 +1,45 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* shared style */
-.font-inter{
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+.font-inter {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 /* navbar style start here */
-.header-container{
+.header-container {
     width: 70%;
     max-width: 1320px;
     margin: 0 auto;
     background-color: #FFFFFF;
     padding: 23px 115px;
 }
+
 .nav-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.nav-link ul{
+
+.nav-link ul {
     display: flex;
     list-style-type: none;
     text-decoration: none;
     gap: 40px;
 }
-.nav-link ul a{
+
+.nav-link ul a {
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
     color: #575757;
 }
-.btn-primary button{
+
+.btn-primary button {
     background-color: #1D4ED8;
     border: none;
     border-radius: 11px;
@@ -45,9 +49,52 @@
     color: #FFFFFF;
     cursor: pointer;
 }
+
 /* navbar style end here */
 /* Banner style start here */
 
+.hero-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('assets/banner.jpg');
+    width: 100%;
+    height: 780px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
 
+.hero-content {
+    position: relative;
+    width: 900px;
+    color: #ffffff;
+}
 
-/* Banner style end here */
+.hero-content h1 {
+    font-size: 70px;
+    font-weight: 700;
+    padding-top: 136px;
+    margin-bottom: 16px;
+}
+
+.hero-content p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 331px;
+}
+.hero-btn{
+    background-color: #1D4ED8;
+    border: none;
+    border-radius: 11px;
+    padding: 20px 60px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-bottom: 79px;
+}
+    /* Banner style end here */
