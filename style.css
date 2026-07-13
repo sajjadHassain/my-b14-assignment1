@@ -12,17 +12,18 @@
 
 /* navbar style start here */
 .header-container {
-    width: 70%;
-    max-width: 1320px;
-    margin: 0 auto;
+    width: 100%;
     background-color: #FFFFFF;
-    padding: 23px 115px;
+
 }
 
 .nav-container {
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
     align-items: center;
+    max-width: 1700px;
+    padding: 20px 90px;
 }
 
 .nav-link ul {
@@ -48,6 +49,9 @@
     font-weight: bold;
     color: #FFFFFF;
     cursor: pointer;
+}
+.btn-primary button:hover{
+    box-shadow: 6px 10px 10px #7a7aa8;
 }
 
 /* navbar style end here */
@@ -86,7 +90,8 @@
     color: #ffffff;
     margin-bottom: 331px;
 }
-.hero-btn{
+
+.hero-btn {
     background-color: #1D4ED8;
     border: none;
     border-radius: 11px;
@@ -97,4 +102,59 @@
     cursor: pointer;
     margin-bottom: 79px;
 }
-    /* Banner style end here */
+.hero-btn:hover{
+    box-shadow: 6px 10px 10px #1f1f2c;
+}
+
+/* Banner style end here */
+/*Speakers style start here */
+
+.all-section-speakers h2{
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 56px;
+}
+.section-speakers{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    justify-items: center;
+    padding: 0 100px;
+}
+.card{
+    width: 100%;
+    border: 2px solid #ececf2;
+    border-radius: 12px;
+    /* background-color: #E5E7EB; */
+}
+.card:hover{
+    box-shadow: 6px 12px 10px #ececf2;
+}
+.img-style{
+    width: 100%;
+}
+.card-title{
+    padding-left: 24px;
+    padding-bottom: 34px;
+}
+.card-title span{
+    font-size: 16px;
+    font-weight: 600;
+    color: #1D4ED8;
+}
+.card-title h3{
+    font-size: 20;
+    font-weight: 700;
+    color: #0D1B2A;
+    padding-bottom: 8px;
+}
+.card-title p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #575757;
+    padding-bottom: 24px;
+}
+
+/*Speakers style end here */
