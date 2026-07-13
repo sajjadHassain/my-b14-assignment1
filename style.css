@@ -1,4 +1,52 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+/* shared style */
+.font-inter{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* navbar style start here */
+.header-container{
+    width: 70%;
+    max-width: 1320px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 23px 115px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-link ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    gap: 40px;
+}
+.nav-link ul a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+}
+.btn-primary button{
+    background-color: #1D4ED8;
+    border: none;
+    border-radius: 11px;
+    padding: 12px 41px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+/* navbar style end here */
+/* Banner style start here */
+
+
+
+/* Banner style end here */
