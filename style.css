@@ -384,33 +384,47 @@
 /* my owne idea schedule style */
 
 /* footer style start here */
-footer {
-    background: #0F172A;
-    padding: 40px 0;
+.footer-container {
+    background-color: #242c35;
+    padding: 30px 0 15px;
 }
 
-.footer-content {
+.footer-contant {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-around;
+    background-color: #242c35;
+    padding: 35px 0;
+    margin-top: 5px;
 }
 
-.footer-content p {
-    font-size: 14px;
-    font-weight: 400;
-    color: #FFFFFF;
+.fa-brands:hover {
+    box-shadow: 0 0 20px rgba(235, 238, 238, 0.747);
 }
 
-.footer-details {
+.social-icon {
+    gap: 20px;
     display: flex;
-    gap: 24px;
+
 }
 
-.footer-details a {
-    text-decoration: none;
+.social-icon a {
+    color: #F8F8F8;
+    font-size: 30px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #334155;
+    margin: 30px 30px;
+}
+
+.footer-bottom p {
+    color: #F8F8F8;
     font-size: 16px;
     font-weight: 400;
-    color: #FFFFFF;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 3px;
 }
 
 /* footer style end here */
