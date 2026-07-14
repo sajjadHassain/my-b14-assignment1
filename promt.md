@@ -1,0 +1,1 @@
+Create a modern DevConf 2026 related section using HTML and CSS. The design should be clean, professional, and match the conference website layout.
